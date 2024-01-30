@@ -1,0 +1,14 @@
+# Blender 4.0.2 MTL File: 'obj3.blend'
+# www.blender.org
+
+newmtl Material.008
+Ns 86.949486
+Ka 1.000000 1.000000 1.000000
+Kd 0.004665 0.241284 0.097923
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.600000
+illum 9
+map_Kd aerial_grass_rock_diff_1k.jpg
+map_d aerial_grass_rock_diff_1k.jpg

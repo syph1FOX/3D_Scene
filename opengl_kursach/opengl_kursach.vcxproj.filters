@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\shaders">
+      <UniqueIdentifier>{4ed61325-584b-4838-abfb-659c5b35837c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\models">
+      <UniqueIdentifier>{a24a58c8-8f00-4aee-8f3a-c5e758282da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\models\mashina">
+      <UniqueIdentifier>{79eba3ed-5b4e-4b65-8d6d-e10f21f88d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\models\bochka">
+      <UniqueIdentifier>{c6368d56-62c0-487a-ba82-beed0624ffb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\models\scumeyka">
+      <UniqueIdentifier>{53d3e57a-4bc0-47d8-bf9c-534eabedf04c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\models\box">
+      <UniqueIdentifier>{7bd763bd-16a3-43dc-a25c-58c010579cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\models\kach_opora">
+      <UniqueIdentifier>{dabc4ca6-4316-4902-b466-9f2c943c2658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\models\kach_kach">
+      <UniqueIdentifier>{7e199cdf-4fe4-4f10-82eb-c2be68ab5e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\models\lampa">
+      <UniqueIdentifier>{0552a124-f02d-4e10-a602-189d79d29ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\models\skybox">
+      <UniqueIdentifier>{548248fe-5e28-49ca-8c4c-6d4039316118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\models\zemlya">
+      <UniqueIdentifier>{4fe086c9-4139-457f-92f6-c781ecd920f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="src\Shaders\fragAffine.glsl">
+      <Filter>Файлы ресурсов\shaders</Filter>
+    </None>
+    <None Include="src\Shaders\fragMVP.glsl">
+      <Filter>Файлы ресурсов\shaders</Filter>
+    </None>
+    <None Include="src\Shaders\fragSkybox.glsl">
+      <Filter>Файлы ресурсов\shaders</Filter>
+    </None>
+    <None Include="src\Shaders\fragTex.glsl">
+      <Filter>Файлы ресурсов\shaders</Filter>
+    </None>
+    <None Include="src\Shaders\vertAffine.glsl">
+      <Filter>Файлы ресурсов\shaders</Filter>
+    </None>
+    <None Include="src\Shaders\vertMVP.glsl">
+      <Filter>Файлы ресурсов\shaders</Filter>
+    </None>
+    <None Include="src\Shaders\vertSkybox.glsl">
+      <Filter>Файлы ресурсов\shaders</Filter>
+    </None>
+    <None Include="src\Shaders\vertTex.glsl">
+      <Filter>Файлы ресурсов\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\func.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Globals.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tiny_obj_loader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Scene.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Model.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model\Skybox.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Light\Lights.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Animation\Animation.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\func.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Scene.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Model.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model\Skybox.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Light\Lights.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
